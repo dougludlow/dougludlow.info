@@ -21,5 +21,5 @@ I prefer C#, ASP.NET MVC. JavaScript was my first language. LESS is pretty aweso
 SiteName: Doug Ludlow
 ----
 
-SiteCopyright: &copy; Copyright [Douglas Ludlow](doug.ludlow@gmail.com)
+SiteCopyright: &copy; Copyright [Douglas Ludlow](mailto:doug.ludlow@gmail.com)
 ----
