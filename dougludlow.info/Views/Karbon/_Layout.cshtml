@@ -1,0 +1,29 @@
+﻿@inherits KarbonView
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.CurrentPage.Name | @Model.HomePage.Get("SiteName")</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+</head>
+    <body>
+        
+        <header>
+            <div>
+                <a href="/">@Model.HomePage.Get("SiteName")</a>
+            </div>
+        </header>
+        
+        @Html.Partial("MainNav")
+        @Html.Partial("SubNav")
+        
+        @RenderBody()
+
+        <footer>
+            <div>
+                @Html.Md(Model.HomePage.Get("SiteCopyright"))
+            </div>
+        </footer>
+    </body>
+</html>

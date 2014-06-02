@@ -1,0 +1,25 @@
+Name: Doug Ludlow
+----
+
+Content: 
+
+Hello! I'm a web developer in Boise, ID. I'm passionate about (not in any particular order):
+
+ - The web
+ - Solving problems
+ - Software development
+ - My wife and two daughters
+
+I prefer C#, ASP.NET MVC. JavaScript was my first language. LESS is pretty awesome.
+
+----
+
+###################################################################
+# Site Settings
+###################################################################
+
+SiteName: Doug Ludlow
+----
+
+SiteCopyright: &copy; Copyright [Douglas Ludlow](doug.ludlow@gmail.com)
+----
