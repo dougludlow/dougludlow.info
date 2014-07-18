@@ -1,7 +1,4 @@
-Name: Doug Ludlow
-----
-
-Content: 
+Profile: 
 
 Hello! I'm a web developer in Boise, ID. I'm passionate about (not in any particular order):
 
@@ -18,8 +15,8 @@ I prefer C#, ASP.NET MVC. JavaScript was my first language. LESS is pretty aweso
 # Site Settings
 ###################################################################
 
-SiteName: Doug Ludlow
+FullName: Doug Ludlow
 ----
 
-SiteCopyright: &copy; Copyright [Douglas Ludlow](mailto:doug.ludlow@gmail.com)
+Title: Web Developer
 ----
