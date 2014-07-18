@@ -11,9 +11,9 @@
         <div class="row">
             <div class="col-sm-5 contact-info">
                 <h3>Contact Info</h3>
-                <p><i class="fa fa-map-marker"></i> 1234 State St., Little Rock, AR  72020 </p>
-                <p><i class="fa fa-phone"></i> (555) 123-4567 | (555) 123-7654 (FAX)</p>
-                <p><i class="fa fa-envelope-o"></i> articulate@email.com</p>
+                <p><i class="fa fa-map-marker"></i> @Model.CurrentPage.Get("ContactLocation")</p>
+                <p><i class="fa fa-phone"></i> @Model.CurrentPage.Get("ContactPhone")</p>
+                <p><i class="fa fa-envelope-o"></i> @Model.CurrentPage.Get("ContactEmail")</p>
             </div>
 
             <div class="col-sm-7">

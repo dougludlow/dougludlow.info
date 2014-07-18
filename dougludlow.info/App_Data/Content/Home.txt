@@ -132,7 +132,7 @@ Experience: [
 PortfolioSubtitle: Here's some of what I've done thus far.
 ----
 
-ContactSubtitle: Like to know me better? Feel free to contact me.
+ContactSubtitle: Like to know me better? Feel free to reach out to me.
 ----
 
 ContactLocation: Meridian, ID
