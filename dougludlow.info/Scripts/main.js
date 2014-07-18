@@ -1,6 +1,4 @@
-
 $(document).ready(function () {
-
 
     /* Scroll hire me button to contact page */
     $('.hire-me').click(function () {
@@ -11,14 +9,12 @@ $(document).ready(function () {
     });
 
     /* For Bootstrap current state on portfolio sorting */
-
     $('ul.nav-pills li a').click(function (e) {
         $('ul.nav-pills li.active').removeClass('active')
         $(this).parent('li').addClass('active')
     })
 
     /* portfolio mixitup */
-
     $(window).load(function () {
         var $container = $('.grid-wrapper');
         $container.isotope({
@@ -47,7 +43,6 @@ $(document).ready(function () {
         });
     });
 
-
     /* Magnific Popup */
     $('.grid-wrapper').magnificPopup({
         delegate: 'a',
@@ -57,11 +52,8 @@ $(document).ready(function () {
         }
     });
 
-
-
     /* Sticky menu */
     $(".navbar").sticky({ topSpacing: 0 });
-
 
     /* Scroll spy and scroll filter */
     $('#main-menu').onePageNav({
@@ -74,7 +66,6 @@ $(document).ready(function () {
     });
 
     /* Charts*/
-
     $('.chart').waypoint(function () {
         $(this).easyPieChart({
             barColor: '#3498db',
@@ -91,7 +82,6 @@ $(document).ready(function () {
 
 
     /* VEGAS Home Slider */
-
     $.vegas('slideshow', {
         backgrounds: [
           { src: '/images/slider/01.jpg', fade: 1000 },
@@ -111,7 +101,6 @@ $(document).ready(function () {
     $("#vegas-prev").click(function () {
         $.vegas('previous');
     });
-
 
     /*Contact form */
     $('#contact-form').validate({
@@ -137,7 +126,4 @@ $(document).ready(function () {
                 .closest('.control-group').removeClass('error').addClass('success');
         }
     });
-
-
-
 });
