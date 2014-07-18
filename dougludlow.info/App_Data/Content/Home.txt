@@ -34,8 +34,8 @@ WelcomeSocial: [
         "icon": "fa-facebook"
     },
     {
-        "name": "Linked In",
-        "url": "https://www.linkedin.com/pub/douglas-ludlow/79/253/162",
+        "name": "LinkedIn",
+        "url": "http://www.linkedin.com/pub/douglas-ludlow/79/253/162",
         "icon": "fa-linkedin"
     },
     {
@@ -55,7 +55,7 @@ WelcomeSocial: [
     },
     {
         "name": "Github",
-        "url": "https://github.com/dougludlow",
+        "url": "http://github.com/dougludlow",
         "icon": "fa-github"
     },
     {
@@ -113,10 +113,17 @@ ExperienceTagLine:
 
 Experience: [
     {
-        "company": "",
-        "title": "",
-        "location": "",
-        "dates": "",
+        "company": "City of Boise",
+        "title": "Programmer/Analyst II",
+        "location": "Boise, ID",
+        "dates": "2011 - Current",
+        "description": ""
+    },
+    {
+        "company": "HP Enterprise Services",
+        "title": "Tech Lead",
+        "location": "Boise, ID",
+        "dates": "2009 - 2011",
         "description": ""
     }
 ]
