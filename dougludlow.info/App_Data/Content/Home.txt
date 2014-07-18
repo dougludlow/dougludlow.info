@@ -71,7 +71,7 @@ WelcomeSocial: [
 ]
 ----
 
-ProfileTagLine:
+ProfileTagLine: Get to know me better.
 ----
 
 Profile: 
@@ -91,10 +91,10 @@ Ultimately, I want to make a difference in the world. I want to give back. I lik
 ProfileImage: http://www.gravatar.com/avatar/2415d30bdcb725e473ce365d3c581583.png?s=215
 ----
 
-SkillsTagLine: 
+SkillsTagLine: Honing my skills is part of who I am.
 ----
 
-EducationTagLine:
+EducationTagLine: Always striving for learning.
 ----
 
 Education: [
@@ -108,7 +108,7 @@ Education: [
 ]
 ----
 
-ExperienceTagLine:
+ExperienceTagLine: Here's some of what I've done thus far.
 ----
 
 Experience: [
@@ -128,8 +128,8 @@ Experience: [
     }
 ]
 
-PortfolioTagLine:
+PortfolioTagLine: Here's some of what I've done thus far.
 ----
 
-ContactTagLine:
+ContactTagLine: Like to know me better? Feel free to contact me.
 ----
