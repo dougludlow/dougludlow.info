@@ -1,4 +1,7 @@
 ﻿@inherits KarbonView
+@{
+    var sections = Json.Decode<IEnumerable<string>>(Model.CurrentPage.Get("Sections"));
+}
 
 <div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
@@ -13,12 +16,10 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav" id="main-menu">
                 <li><a href="#page-welcome">Home</a></li>
-                <li><a href="#page-profile">Profile</a></li>
-                <li><a href="#page-skills">Skills</a></li>
-                <li><a href="#page-education">Education</a></li>
-                <li><a href="#page-experience">Experience</a></li>
-                <li><a href="#page-portfolio">Portfolio</a></li>
-                <li><a href="#page-contact">Contact</a></li>
+            @foreach (var s in sections)
+            {
+                <li><a href="#page-@s.ToLower()">@s</a></li>
+            }
             </ul>
         </div><!--/.nav-collapse -->
     </div>

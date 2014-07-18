@@ -559,6 +559,10 @@ label.valid {
     color: #21759B;
 }
 
+.btn-resume:hover {
+    color: #FE7A15;
+}
+
 .btn-dribbble:hover {
     color: #D92C85;
 }

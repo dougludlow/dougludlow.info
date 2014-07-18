@@ -1,6 +1,6 @@
 ﻿@inherits KarbonView
 @{
-    var social = Json.Decode(Model.CurrentPage.Get("Social"));
+    var social = Json.Decode(Model.CurrentPage.Get("WelcomeSocial"));
 }
 
 <!-- welcome begins -->
@@ -20,7 +20,7 @@
             <div class="social-icons">
             @foreach (var s in social)
             {
-                <a href="@s.url" class="btn btn-round btn-clear btn-@s.name.ToLower().Replace(" ", "-")"><i class="fa @s.icon"></i></a>
+                <a href="@s.url" class="btn btn-round btn-clear btn-@s.name.ToLower().Replace(" ", "-")" title="@s.name"><i class="fa @s.icon"></i></a>
             }
             </div>
             <a href="#page-contact" class="btn btn-default hire-me">Hire Me</a>

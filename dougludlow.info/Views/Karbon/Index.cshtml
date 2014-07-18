@@ -1,13 +1,14 @@
 ﻿@inherits KarbonView
 @{
     Layout = "_Layout.cshtml";
+    var sections = Json.Decode<IEnumerable<string>>(Model.CurrentPage.Get("Sections"));
+    
 }
 
 @Html.Partial("_Welcome")
-@Html.Partial("_Profile")
-@Html.Partial("_Skills")
-@Html.Partial("_Education")
-@Html.Partial("_Experience")
-@Html.Partial("_Portfolio")
-@Html.Partial("_Contact")
+
+@foreach (var s in sections)
+{
+    @Html.Partial("_" + s)
+}
 

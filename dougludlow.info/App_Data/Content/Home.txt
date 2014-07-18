@@ -4,7 +4,25 @@ FullName: Doug Ludlow
 Title: Web Developer
 ----
 
-Social: [
+Sections: [
+    "Profile",
+    "Education",
+    "Experience",
+    "Contact"
+]
+----
+
+#Sections: [
+#    "Profile",
+#    "Skills",
+#    "Education",
+#    "Experience",
+#    "Portfolio",
+#    "Contact"
+#]
+#----
+
+WelcomeSocial: [
     {
         "name": "Twitter",
         "url": "http://twitter.com/blunderingdev",
@@ -38,27 +56,73 @@ Social: [
     {
         "name": "Github",
         "url": "https://github.com/dougludlow",
-        "icon": "fa-github-alt"
+        "icon": "fa-github"
     },
     {
         "name": "WordPress",
         "url": "http://blunderings.net/",
         "icon": "fa-wordpress"
+    },
+    {
+        "name": "Resume",
+        "url": "http://careers.stackoverflow.com/dougludlow",
+        "icon": "fa-file-text-o"
     }
 ]
 ----
 
+ProfileTagLine:
+----
+
 Profile: 
-Hello! I'm a web developer in Boise, ID. I'm passionate about (not in any particular order):
+I was one of those kids who liked to take everything apart just to see what made it work. When my family first got a computer, I was enthralled by it. It had Windows 3.1 on it. Paint was my favorite program, it was amazing to me that pictures and textures were represented by a collection of tiny pixels.
 
- - The web
- - Solving problems
- - Software development
- - My wife and two daughters
+Eventually, when I was introduced to the web, I fell in love with it instantly when I found that I could view the source of any page. I loved seeing how
 
-I prefer C#, ASP.NET MVC. JavaScript was my first language. LESS is pretty awesome.
+people did things and trying to replicate them. The CSS Zen Garden, by Dave Shea, had a big impact on me. I originally learned HTML and CSS from the raw
+
+W3C specs. JavaScript became my first language.
+
+I enjoy learning and trying out new technologies. When I want to understand how something works, I read through the source. Technologies come and go and languages become popular and then eventually fade into history. While it's important to stay up on technology, but it's also important to learn and understand the principles of software engineering. Finding a balance between the two is where software craftmanship comes in. I'm always trying to improve my software craftmanship.
+
+Ultimately, I want to make a difference in the world. I want to give back. I like sharing my talents and skills.
 ----
 
 ProfileImage: http://www.gravatar.com/avatar/2415d30bdcb725e473ce365d3c581583.png?s=215
 ----
 
+SkillsTagLine: 
+----
+
+EducationTagLine:
+----
+
+Education: [
+    {
+        "school": "Boise State University",
+        "degree": "Bachelor of in Computer Science",
+        "status": "In Progress",
+        "year": "2009-2019",
+        "description": ""
+    }
+]
+----
+
+ExperienceTagLine:
+----
+
+Experience: [
+    {
+        "company": "",
+        "title": "",
+        "location": "",
+        "dates": "",
+        "description": ""
+    }
+]
+
+PortfolioTagLine:
+----
+
+ContactTagLine:
+----
