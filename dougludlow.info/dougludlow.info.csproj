@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Content\Home.txt" />
+    <Content Include="favicon.ico" />
     <Content Include="Images\slider\05.jpg" />
     <Content Include="Images\slider\06.jpg" />
     <Content Include="Images\slider\07.jpg" />
