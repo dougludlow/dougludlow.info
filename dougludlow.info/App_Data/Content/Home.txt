@@ -1,5 +1,54 @@
-Profile: 
+FullName: Doug Ludlow
+----
 
+Title: Web Developer
+----
+
+Social: [
+    {
+        "name": "Twitter",
+        "url": "http://twitter.com/blunderingdev",
+        "icon": "fa-twitter"
+    },
+    {
+        "name": "Facebook",
+        "url": "http://www.facebook.com/douglas.ludlow",
+        "icon": "fa-facebook"
+    },
+    {
+        "name": "Linked In",
+        "url": "https://www.linkedin.com/pub/douglas-ludlow/79/253/162",
+        "icon": "fa-linkedin"
+    },
+    {
+        "name": "Google Plus",
+        "url": "http://www.google.com/+dougludlow86",
+        "icon": "fa-google-plus"
+    },
+    {
+        "name": "Stack Overflow",
+        "url": "http://stackoverflow.com/users/1110395/douglas-ludlow",
+        "icon": "fa-stack-overflow"
+    },
+    {
+        "name": "Codepen",
+        "url": "http://codepen.io/dougludlow/",
+        "icon": "fa-codepen"
+    },
+    {
+        "name": "Github",
+        "url": "https://github.com/dougludlow",
+        "icon": "fa-github-alt"
+    },
+    {
+        "name": "WordPress",
+        "url": "http://blunderings.net/",
+        "icon": "fa-wordpress"
+    }
+]
+----
+
+Profile: 
 Hello! I'm a web developer in Boise, ID. I'm passionate about (not in any particular order):
 
  - The web
@@ -8,15 +57,8 @@ Hello! I'm a web developer in Boise, ID. I'm passionate about (not in any partic
  - My wife and two daughters
 
 I prefer C#, ASP.NET MVC. JavaScript was my first language. LESS is pretty awesome.
-
 ----
 
-###################################################################
-# Site Settings
-###################################################################
-
-FullName: Doug Ludlow
+ProfileImage: http://www.gravatar.com/avatar/2415d30bdcb725e473ce365d3c581583.png?s=215
 ----
 
-Title: Web Developer
-----

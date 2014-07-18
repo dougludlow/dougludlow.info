@@ -535,16 +535,36 @@ label.valid {
     color: #204385;
 }
 
+.btn-linked-in:hover {
+    color: #015786;
+}
+
+.btn-google-plus:hover {
+    color: #DD4B39;
+}
+
+.btn-stack-overflow:hover {
+    color: #FE7A15;
+}
+
+.btn-codepen:hover {
+    color: #000;
+}
+
+.btn-github:hover {
+    color: #000;
+}
+
+.btn-wordpress:hover {
+    color: #21759B;
+}
+
 .btn-dribbble:hover {
     color: #D92C85;
 }
 
 .btn-instagram:hover {
     color: #BAB1A8;
-}
-
-.btn-linkedin:hover {
-    color: #015786;
 }
 
 .btn-pinterest:hover {
