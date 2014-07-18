@@ -190,16 +190,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\KarbonCmsConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Models\MessageModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\Nav.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\_Layout.cshtml" />
+    <Content Include="Views\Karbon\Index.cshtml" />
+    <Content Include="Views\Karbon\_Layout.cshtml" />
     <Content Include="Config\FileStores.config" />
     <Content Include="Config\DataSerializers.config" />
     <Content Include="Fonts\fontawesome-webfont.eot" />
@@ -209,13 +207,13 @@
     <Content Include="Fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Views\Home\_Welcome.cshtml" />
-    <Content Include="Views\Home\_Profile.cshtml" />
-    <Content Include="Views\Home\_Skills.cshtml" />
-    <Content Include="Views\Home\_Education.cshtml" />
-    <Content Include="Views\Home\_Portfolio.cshtml" />
-    <Content Include="Views\Home\_Contact.cshtml" />
-    <Content Include="Views\Home\_Experience.cshtml" />
+    <Content Include="Views\Karbon\_Welcome.cshtml" />
+    <Content Include="Views\Karbon\_Profile.cshtml" />
+    <Content Include="Views\Karbon\_Skills.cshtml" />
+    <Content Include="Views\Karbon\_Education.cshtml" />
+    <Content Include="Views\Karbon\_Portfolio.cshtml" />
+    <Content Include="Views\Karbon\_Contact.cshtml" />
+    <Content Include="Views\Karbon\_Experience.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -94,7 +94,7 @@ ProfileImage: http://www.gravatar.com/avatar/2415d30bdcb725e473ce365d3c581583.pn
 SkillsSubtitle: Honing my skills is part of who I am.
 ----
 
-EducationSubtitle: Always striving for learning.
+EducationSubtitle: I'm always striving for learning.
 ----
 
 Education: [
@@ -132,7 +132,7 @@ Experience: [
 PortfolioSubtitle: Here's some of what I've done thus far.
 ----
 
-ContactSubtitle: Like to know me better? Feel free to reach out to me.
+ContactSubtitle: Feel free to reach out to me.
 ----
 
 ContactLocation: Meridian, ID
@@ -142,4 +142,7 @@ ContactPhone: (208) 724-1053
 ----
 
 ContactEmail: doug.ludlow@gmail.com
+----
+
+ContactTwitter: blunderingdev
 ----
