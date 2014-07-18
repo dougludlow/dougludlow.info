@@ -1,29 +1,60 @@
 ﻿@inherits KarbonView
 
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Douglas Ludlow, Web Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Douglas Ludlow">
     <title>@Model.CurrentPage.Name | @Model.HomePage.Get("SiteName")</title>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-</head>
-    <body>
-        
-        <header>
-            <div>
-                <a href="/">@Model.HomePage.Get("SiteName")</a>
-            </div>
-        </header>
-        
-        @Html.Partial("MainNav")
-        @Html.Partial("SubNav")
-        
-        @RenderBody()
 
-        <footer>
-            <div>
-                @Html.Md(Model.HomePage.Get("SiteCopyright"))
-            </div>
-        </footer>
-    </body>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/magnific-popup.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/colors/blue.css">
+    <!--<link rel="stylesheet" href="/styles/colors/yellow.css">-->
+    <!--<link rel="stylesheet" href="/styles/colors/red.css">-->
+    <!--<link rel="stylesheet" href="/styles/colors/purple.css">-->
+    <!--<link rel="stylesheet" href="/styles/colors/orange.css">-->
+    <!--<link rel="stylesheet" href="/styles/colors/green.css">-->
+
+    <script src="/scripts/modernizr-2.6.2.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="/scripts/plugins/html5shiv.js"></script>
+      <script src="/scripts/plugins/respond.min.js"></script>
+    <![endif]-->
+
+    @RenderSection("head", required: false)
+</head>
+<body>
+    @Html.Partial("Nav")
+
+    @RenderBody()
+
+    <script src="/scripts/jquery-1.10.2.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="/scripts/jquery.scrollTo.js"></script>
+    <script src="/scripts/jquery.nav.js"></script>
+    <script src="/scripts/jquery.sticky.js"></script>
+    <script src="/scripts/jquery.easypiechart.min.js"></script>
+    <script src="/scripts/jquery.vegas.min.js"></script>
+    <script src="/scripts/jquery.isotope.min.js"></script>
+    <script src="/scripts/jquery.magnific-popup.min.js"></script>
+    <script src="/scripts/jquery.validate.js"></script>
+    <script src="/scripts/waypoints.min.js"></script>
+    <script src="/scripts/main.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
 </html>
