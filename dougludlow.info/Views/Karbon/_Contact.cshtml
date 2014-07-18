@@ -1,0 +1,19 @@
+﻿@inherits KarbonView
+
+<!-- contact begins -->
+<section id="page-contact" class="page-contact">
+    <div class="container">
+        <header class="section-header">
+            <h2 class="section-title"><span>Contact</span></h2>
+            <div class="spacer"></div>
+            <p class="section-subtitle">@Model.CurrentPage.Get("ContactSubtitle")</p>
+        </header>
+        <div class="row">
+            <div class="col-sm-12 contact-info text-center">
+                <p><i class="fa fa-phone"></i> @Model.CurrentPage.Get("ContactPhone")</p>
+                <p><i class="fa fa-envelope-o"></i> <a href="mailto:@Model.CurrentPage.Get("ContactEmail")">@Model.CurrentPage.Get("ContactEmail")</a></p>
+                <p><i class="fa fa-twitter"></i> <a href="http://twitter.com/@Model.CurrentPage.Get("ContactTwitter")">@@@Model.CurrentPage.Get("ContactTwitter")</a></p>
+            </div>
+        </div><!-- End row -->
+    </div>
+</section> <!-- contact ends -->

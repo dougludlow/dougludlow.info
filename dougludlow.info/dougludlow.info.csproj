@@ -105,6 +105,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Content\Home.txt" />
+    <Content Include="Images\slider\05.jpg" />
+    <Content Include="Images\slider\06.jpg" />
+    <Content Include="Images\slider\07.jpg" />
+    <Content Include="Images\stock\canstockphoto12970758.jpg" />
+    <Content Include="Images\stock\canstockphoto14673371.jpg" />
+    <Content Include="Images\stock\canstockphoto14685936.jpg" />
+    <Content Include="Images\stock\canstockphoto16194071.jpg" />
+    <Content Include="Images\stock\canstockphoto18370881.jpg" />
     <Content Include="Styles\bootstrap.min.css" />
     <Content Include="Styles\colors\blue.css" />
     <Content Include="Styles\colors\green.css" />
@@ -221,9 +229,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\stock\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
