@@ -1,4 +1,18 @@
 ﻿@inherits KarbonView
+@{
+    var experience = Json.Decode(Model.CurrentPage.Get("Experience"));
+    int count = experience.Length;
+    int size = 4;
+
+    if (count == 1)
+    {
+        size = 12;
+    }
+    else if (count == 2)
+    {
+        size = 6;
+    }
+}
 
 <!-- experience begins -->
 <section id="page-experience" class="page-experience">
@@ -6,36 +20,21 @@
         <header class="section-header">
             <h2 class="section-title"><span>Experience</span></h2>
             <div class="spacer"></div>
-            <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+            <p class="section-subtitle">@Model.CurrentPage.Get("ExperienceSubtitle")</p>
         </header>
         <div class="row">
-            <div class="col-md-4">
+        @foreach (var job in experience)
+        {
+            <div class="col-md-@size">
                 <article class="experience">
                     <header>
-                        <h3>Dropbox</h3>
-                        <p>Design Lead / San Francisco, CA / 2013 - Current</p>
+                        <h3>@job.company</h3>
+                        <p>@job.title / @job.location / @job.dates</p>
                     </header>
-                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                    <p>@job.description</p>
                 </article>
             </div>
-            <div class="col-md-4">
-                <article class="experience">
-                    <header>
-                        <h3>Instagram</h3>
-                        <p>Visual Designer / San Francisco, CA / 2010 - 2013</p>
-                    </header>
-                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
-                </article>
-            </div>
-            <div class="col-md-4">
-                <article class="experience">
-                    <header>
-                        <h3>Facebook</h3>
-                        <p>Product Designer / San Francisco, CA / 2005 - 2010</p>
-                    </header>
-                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
-                </article>
-            </div>
+        }
         </div>
     </div>
 </section><!-- experience ends -->

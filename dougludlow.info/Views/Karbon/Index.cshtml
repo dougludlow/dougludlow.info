@@ -2,7 +2,6 @@
 @{
     Layout = "_Layout.cshtml";
     var sections = Json.Decode<IEnumerable<string>>(Model.CurrentPage.Get("Sections"));
-    
 }
 
 @Html.Partial("_Welcome")

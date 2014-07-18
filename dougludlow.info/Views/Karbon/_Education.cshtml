@@ -1,4 +1,18 @@
 ﻿@inherits KarbonView
+@{
+    var education = Json.Decode(Model.CurrentPage.Get("Education"));
+    int count = education.Length;
+    int size = 4;
+
+    if (count == 1)
+    {
+        size = 12;
+    }
+    else if (count == 2)
+    {
+        size = 6;
+    }
+}
 
 <!-- education begins -->
 <section id="page-education" class="page-education">
@@ -6,27 +20,21 @@
         <header class="section-header">
             <h2 class="section-title"><span>Education</span></h2>
             <div class="spacer"></div>
-            <p class="section-subtitle">Lorem ipsum dolor sit amet, id iusto oportere mel. </p>
+            <p class="section-subtitle">@Model.CurrentPage.Get("EducationSubtitle")</p>
         </header>
         <div class="row">
-            <div class="col-md-6">
+        @foreach (var school in education)
+        {
+            <div class="col-md-@size">
                 <article class="education">
                     <header>
-                        <h3>School of the Art Institute of Chicago</h3>
-                        <p>Bachelor of Fine Arts - <strong>Graduated:</strong> 2004</p>
+                        <h3>@school.school</h3>
+                        <p>@school.degree - <strong>@school.status:</strong> @school.year</p>
                     </header>
-                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
+                    <p>@school.description</p>
                 </article>
             </div>
-            <div class="col-md-6">
-                <article class="education">
-                    <header>
-                        <h3>Rhode Island School of Design</h3>
-                        <p>Associates of Fine Arts  - <strong>Graduated:</strong> 2002</p>
-                    </header>
-                    <p>Lorem ipsum dolor sit amet, ut pri munere perfecto sadipscing, nam habeo legere disputationi ea. Vis nostrud intellegat eu, in vix erat abhorreant accommodare. Vix id elit albucius suavitate. Eos mentitum forensibus et. Vix et quidam moderatius, cu vim quem tibique constituam.</p>
-                </article>
-            </div>
+        }
         </div>
     </div>
 </section><!-- education ends -->
