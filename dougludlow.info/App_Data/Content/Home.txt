@@ -77,9 +77,9 @@ ProfileSubtitle: Get to know me better.
 Profile: 
 I was one of those kids who liked to take everything apart just to see what made it work. When my family first got a computer, I was enthralled by it. It had Windows 3.1 on it. Paint was my favorite program, it was amazing to me that pictures and textures were represented by a collection of tiny pixels.
 
-Eventually, when I was introduced to the web, I fell in love with it instantly when I found that I could view the source of any page. I loved seeing how people did things and trying to replicate them. The CSS Zen Garden, by Dave Shea, had a big impact on me. I originally learned HTML and CSS from the raw W3C specs. JavaScript became my first language.
+Eventually, when I was introduced to the web, I fell in love with it instantly when I found that I could view the source of any page. I loved seeing how people did things and trying to replicate them. The [CSS Zen Garden](http://www.csszengarden.com/), by Dave Shea, had a big impact on me. I originally learned HTML and CSS from the raw W3C specs. JavaScript became my first language.
 
-I enjoy learning and trying out new technologies. When I want to understand how something works, I read through the source. Technologies come and go and languages become popular and then eventually fade into history. While it's important to stay up on technology, but it's also important to learn and understand the principles of software engineering. Finding a balance between the two is where software craftmanship comes in. I'm always trying to improve my software craftmanship.
+I enjoy learning and trying out new technologies. When I want to understand how something works, I read through the source. Technologies come and go and languages become popular and then eventually fade into history. While it's important to stay up on technology, it's also important to learn and understand the principles of software engineering. Finding a balance between the two is where software craftmanship comes in. I'm always trying to improve my software craftmanship.
 
 Ultimately, I want to make a difference in the world. I want to give back. I like sharing my talents and skills.
 ----
