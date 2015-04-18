@@ -110,7 +110,7 @@ ExperienceSubtitle: Here's some of what I've done thus far.
 Experience: [
     {
         "company": "Royal Jay",
-        "title": "Software Developer,
+        "title": "Software Developer",
         "location": "Boise, ID",
         "dates": "2015 - Current",
         "description": "I work with a small, agile driven team, developing custom software for Royal Jay's clients."
