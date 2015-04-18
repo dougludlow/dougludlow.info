@@ -109,18 +109,25 @@ ExperienceSubtitle: Here's some of what I've done thus far.
 
 Experience: [
     {
+        "company": "Royal Jay",
+        "title": "Software Developer,
+        "location": "Boise, ID",
+        "dates": "2015 - Current",
+        "description": "I work with a small, agile driven team, developing custom software for Royal Jay's clients."
+    },
+    {
         "company": "City of Boise",
         "title": "Programmer/Analyst II",
         "location": "Boise, ID",
-        "dates": "2011 - Current",
-        "description": "I worked on the web team as the lead developer. I developed and supported many websites and web applications. I worked on the full stack with a large array of front-end and back-end technologies."
+        "dates": "2011 - 2015",
+        "description": "I worked on the web team as the lead developer. I developed and maintained many Umbraco and WordPress websites and custom applications. I worked on the full stack with a large array of front-end and back-end technologies."
     },
     {
         "company": "HP Enterprise Services",
         "title": "Tech Lead",
         "location": "Boise, ID",
         "dates": "2009 - 2011",
-        "description": "I lead a team of 20 tech support agents as a tech lead. I supported the agents in person and via chat to aid them in resolving issues or authorizing escalation. I developed a javascript application to aid in creating tickets that came to be adopted by the organization as a core tool."
+        "description": "I lead a team tech support agents as a tech lead on the NMCI (Navy Marine Corps Intranet) contrat. I provided support to the team by helping resolve issues or authorizing escalation. I developed apps and tools that helped streamline and automate processes."
     }
 ]
 ----
