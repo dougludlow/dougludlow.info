@@ -127,7 +127,7 @@ Experience: [
         "title": "Tech Lead",
         "location": "Boise, ID",
         "dates": "2009 - 2011",
-        "description": "I lead a team tech support agents as a tech lead on the NMCI (Navy Marine Corps Intranet) contrat. I provided support to the team by helping resolve issues or authorizing escalation. I developed apps and tools that helped streamline and automate processes."
+        "description": "I lead a team tech support agents as a tech lead on the NMCI (Navy Marine Corps Intranet) contract. I provided support to the team by helping resolve issues or authorizing escalation. I developed apps and tools that helped streamline and automate processes."
     }
 ]
 ----
