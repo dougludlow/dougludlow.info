@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/dougludlow
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dougludlow.info
+  * I am dougludlow (https://keybase.io/dougludlow) on keybase.
+  * I have a public key with fingerprint 5DBF 8468 75A2 2C6C F2EC  9F1E 71C6 8D52 0D1E B6F7
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010ed1c6787be00577569547c8a38600e2aada5a03aca2f0db9e8a145bc256b5770a",
+            "fingerprint": "5dbf846875a22c6cf2ec9f1e71c68d520d1eb6f7",
+            "host": "keybase.io",
+            "key_id": "71c68d520d1eb6f7",
+            "kid": "01010ed1c6787be00577569547c8a38600e2aada5a03aca2f0db9e8a145bc256b5770a",
+            "uid": "7a310655422f923c219cb73227ed6019",
+            "username": "dougludlow"
+        },
+        "service": {
+            "hostname": "dougludlow.info",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1442957454,
+    "expire_in": 157680000,
+    "prev": "a0ad1939ae60304702c9bc8160fd53e1e9f908de790056fb55878428f19585cf",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.46
+Comment: https://keybase.io/crypto
+
+yMNCAnicrZJtUFRVGMeX1lbZ2mFFbYWQyRsgL+t27937uitaTqGUtGiKgMl277nn
+rhdwF/YNN1jUBgaRQdhGndGiVRsGY0ImNGiaEDGirUZpAB0Cc8TBqWjUkSmcioHu
+tfpUHzvnw5nznN///7zMGdCpVdqo8sHGbbrE7odR3/S/41PlRUWOVCK8Swgglkqk
+BD46YKkAPV57iSQgFgTF5A0FDFA0Q/MQRUmaJimWJGjAcGaGQlGIc5zAkRxq5gCH
+i6jAs5DhMILkAU5SvMyjHGJERMnpgO4yt+T0yrakwIsMQTE0yeE4oICIQ8CKGKTl
+RIxA4qiAQZ4SaVm4x+VRFHJxPOeBJsklx+SL/VF5/8H/z3X7/srDmTGUIkkCx0UW
+NwMcYwFPm3GchgKFYqwCeqDbye2FMi24fI5Sn1DqqkCCRkSO+yUAldEqvfyLMUlO
+UWmqzO3yuoCrVH7c4/WWWRStN1CmwBWQt/9tY+clpyDPUhb4odsjuZyIBZNJ4JUU
+X4wgcJakCZIwInBfmeSGdkkhSJpiUHkpaaBftuRQTsBYM8tBCjWjBI3igOUBg1Go
+KJBmiEFWZFFGgDQrz44SeZJkaIbAGRFjSYYEIqI0Vu50IRY5k5dzyJYeyeHkvD43
+RIKX+19fpIrSqjSPP6b8MZU2Wv/Pz6tXxywE7nVsfLU5nAjwVccmq0ZyfhuZ4p/L
+a7xr44faUsMx459WzH/7c0lbvrijeEt6fdPssqTm3ZXF1jXD6n7de3Nopw2M9393
+9kbwo+Gc5bkvhNVZuy5U7htNitStnvjaOj1cv31hquHa56oz8V11XMyvP96qju8M
+Xd0UzHK83937knqvf+5UyoJzLOuz/r4G252huLjErpTbM9bTHxxd/2za/pbUtb2G
+pYWZhZ0d66tnF608PqULFX1sff7ii90OY8eo8/rVJ5LPL6/1vkEHVsb6z9bY+ibG
+m4Jx1cZw9ZKtBw+8HbKKX3S2DMx9P93mL9I4fk/b30Or2wPjZhDJKHglJbh4Vd9M
+8e2Towct105pFu7rcg5nh05XnrCHnzmq+XA6e2NsZsFr6U/lJri73xUL1hUfNlUf
+CkgVCU2t9TczGjTb7y9Z/PLs3SuGrjsPDBM/JE/bN4OmNXz7DcOJmyA8G/NVTHpt
+bc2YvmjzJbchdddO3Ie1zud3LR3Mj6DRvSbYeTLl4rmneUHUtmwaalmWWd5c1VpY
+NZa8ISmU2HJvSNjwcPdMwo756/ovJ0MaS6RnxcAIUfBgW9XAtD7Ds+JQ3VxP9B/t
+T34Sjuy8QmQfuNAOo3NrzseDN6ekWj1xefDM2jTsrdjmX44YjOv8jaYtk3m2hgVt
+pDU8Bc+1Vmy1GVbfuvTT/J9Cu7qD
+=aeeC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dougludlow
+
+==================================================================
