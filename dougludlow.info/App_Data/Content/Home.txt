@@ -90,20 +90,6 @@ ProfileImage: http://www.gravatar.com/avatar/2415d30bdcb725e473ce365d3c581583.pn
 SkillsSubtitle: Honing my skills is part of who I am.
 ----
 
-EducationSubtitle: I'm always striving for learning.
-----
-
-Education: [
-    {
-        "school": "Boise State University",
-        "degree": "Bachelor of in Computer Science",
-        "status": "In Progress",
-        "year": "2009-2019",
-        "description": "I've been studying part-time while I work fulltime. It's been an interesting experience because I can apply what I learn from work to school and vice-versa. I still have a long road ahead, but I enjoy learning."
-    }
-]
-----
-
 ExperienceSubtitle: Here's some of what I've done thus far.
 ----
 
