@@ -219,7 +219,6 @@
     <Content Include="Views\Karbon\_Welcome.cshtml" />
     <Content Include="Views\Karbon\_Profile.cshtml" />
     <Content Include="Views\Karbon\_Skills.cshtml" />
-    <Content Include="Views\Karbon\_Education.cshtml" />
     <Content Include="Views\Karbon\_Portfolio.cshtml" />
     <Content Include="Views\Karbon\_Contact.cshtml" />
     <Content Include="Views\Karbon\_Experience.cshtml" />
