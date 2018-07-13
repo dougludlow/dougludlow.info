@@ -6,21 +6,10 @@ Title: Web Developer
 
 Sections: [
     "Profile",
-    "Education",
     "Experience",
     "Contact"
 ]
 ----
-
-#Sections: [
-#    "Profile",
-#    "Skills",
-#    "Education",
-#    "Experience",
-#    "Portfolio",
-#    "Contact"
-#]
-#----
 
 WelcomeSocial: [
     {
