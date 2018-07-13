@@ -113,7 +113,7 @@ Experience: [
         "title": "Software Developer",
         "location": "Boise, ID",
         "dates": "2015 - Current",
-        "description": "I work with a small, agile driven team, developing custom software for Royal Jay's clients."
+        "description": "I worked in a agile environment developing line of business applications with a small team of developers using primarily ASP.NET and Angular. I contributed regularly to the company blog. Notable projects included: Kno2 - A healthcare clinical document exchange platform"
     },
     {
         "company": "City of Boise",
